@@ -37,7 +37,7 @@ export async function sendTransaction(
   );
 
   const transactionHash = await client.sendTransaction({
-    chain: null,
+    chain: avalancheFuji,
     to: destinationAddress as Address,
     value: transactionValueToSend,
   });
