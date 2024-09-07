@@ -13,6 +13,7 @@ import {
   RequestAddressesReturnType,
 } from "viem";
 import { avalancheFuji } from "viem/chains";
+import Link from "next/link";
 
 const erc20Name = "FiatTokenProxy";
 
@@ -131,6 +132,7 @@ export default function Home() {
 
   return (
     <>
+      <Link href="/estimate_fees_per_gas">1. Estimate Fees Per Gas</Link>
       <main>
         <div className={styles.description}>
           <p>
