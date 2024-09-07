@@ -6,7 +6,7 @@ import { revalidatePath } from "next/cache";
 import { Address, createWalletClient, http, parseEther } from "viem";
 import { privateKeyToAccount } from "viem/accounts";
 import { avalancheFuji } from "viem/chains";
-import convertStringEtherToWeiBigInt from "./utils/convertStringEtherToWeiBigInt";
+import convertStringEtherToWeiBigInt from "../utils/convertStringEtherToWeiBigInt";
 
 const API_KEY = INFURA_API_KEY || "";
 

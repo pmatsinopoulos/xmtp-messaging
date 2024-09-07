@@ -2,7 +2,7 @@
 
 import { InitialState } from "@/types";
 import { useFormState, useFormStatus } from "react-dom";
-import { sendTransaction } from "../actions";
+import { sendTransaction } from "../actions/actions";
 
 const initialState: InitialState = {
   destinationAddress: "0x0000000000000000000000000000000000000000",
